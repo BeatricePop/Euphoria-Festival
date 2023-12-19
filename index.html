@@ -1,0 +1,548 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Pop Beatrice">
+  <meta name="keywords" content="festival, Euphoria, muzică">
+  <meta name="description"
+    content="Noua ediție a celui mai așteptat festival este aici! Euphoria Festival te așteaptă!">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=EB+Garamond&family=Inter&family=Lora&family=Source+Serif+4:opsz@8..60&family=Yeseva+One&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kalnia&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <title> Euphoria Festival</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <head>
+    <style>
+      body {
+        background-color: rgba(234, 182, 236, 0.059);
+      }
+
+      nav {
+        background-color: rgba(204, 187, 202, 0.612);
+      }
+
+      nav img {
+        width: 50px;
+      }
+
+      nav li {
+        font-size: 20px;
+        color: black;
+        font-family: 'Kalnia', serif;
+      }
+
+      .carousel-inner img {
+        width: 100%;
+        display: block;
+      }
+
+      .carousel-caption {
+        width: 50%;
+        left: 10%;
+        top: 30%;
+        background: rgba(0, 0, 0, 0.258);
+        height: 20%;
+      }
+
+      .carousel-caption h3 {
+        font-family: 'Yeseva One', serif;
+      }
+
+      .carousel-caption p {
+        font-family: 'Playfair Display', serif;
+      }
+
+      .descriere h2 {
+        width: 250px;
+        font-family: 'Yeseva One', serif;
+      }
+
+      .descriere h3 {
+        width: 250px;
+        font-family: 'Yeseva One', serif;
+      }
+
+      .descriere-p p {
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 1px;
+        line-height: 30px;
+        font-size: 15px;
+      }
+
+      .box p {
+        width: 50%;
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+      }
+
+      .mt-5 li {
+        font-family: 'Playfair Display', serif;
+        line-height: 27px;
+        font-size: 15px;
+        list-style-type: none;
+      }
+
+      .Bilete {
+        width: 100px;
+        font-family: 'Yeseva One', serif;
+      }
+
+      .Locație {
+        width: 100px;
+        font-family: 'Yeseva One', serif;
+      }
+
+      .col {
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 1px;
+        line-height: 30px;
+        font-size: 15px;
+      }
+
+      footer {
+        background-color: rgba(204, 187, 202, 0.612);
+      }
+
+      footer img {
+        margin-right: 10px;
+      }
+
+      .card-body li {
+        list-style-type: none;
+        font-family: 'Kalnia', serif;
+      }
+
+      .carousel-item img {
+        opacity: 90%;
+      }
+
+      .coloane {
+        display: flex;
+      }
+
+      .col-dr {
+        width: 50%;
+      }
+
+      .col-st {
+        width: 50%;
+      }
+
+      .container-bilete {
+        background-color: rgba(204, 187, 202, 0.253);
+        margin-top: 20px;
+      }
+
+      .coloana {
+        width: 50%;
+      }
+
+      .coloana img {
+        width: 50%;
+      }
+
+      .coloana p {
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 1px;
+        line-height: 30px;
+        font-size: 15px;
+      }
+
+      .center-accordion {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+      }
+    </style>
+  </head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="logo.png" alt="Logo">
+          Euphoria Festival
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0; justify-content-end">
+            <li class="navbar-sectiune">
+              <a class="nav-link" href="#descriere">Anul acesta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Bilete">Bilete</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Locație">Locație</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="audience3.jpg" alt="mâinile publicului de la un concert, în fundal se vede un cântăreț">
+          <div class="carousel-caption">
+            <h3>11-13 august 2023</h3>
+            <p>Ritmuri neconvenționale, experiențe memorabile, vibrații inedite, note revoluționare - Bine ați venit la
+              o nouă ediție de Euphoria Festival!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="chitarist2.jpg" alt="un bârbat care căntâ la chitară pe o scenă">
+        </div>
+        <div class="carousel-item">
+          <img src="festival-2.jpg" alt="confetti aruncat în aer, se observă și măinile publicului">
+        </div>
+        <div class="carousel-item">
+          <img src="pexels-photo-1699161.jpeg" alt="o fată care cântă la microfon, i se vede doar partea de mijloc a corpului">
+        </div>
+        <div class="carousel-item">
+          <img src="stereo-amplifier-1208090_1280.jpg" alt="amplificator stereo">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+  <div id="descriere">
+    <div class="descriere mx-auto mb-5 mt-5">
+      <div class="d-flex justify-content-center">
+        <h2>Anul acesta</h2>
+      </div>
+    </div>
+    <div class="descriere-p">
+      <p> Cu un line-up spectaculos, care include artiști consacrați și talente emergente, festivalul nostru promite
+        trei
+        zile de muzică neîntreruptă, cu genuri care acoperă tot spectrul posibil.Vă îndemnăm să vă rezervați aceste zile
+        în calendar și să vă pregătiți pentru o aventură muzicală și culturală de excepție la Euphoria Festival.
+        Așteptăm
+        cu nerăbdare să vă întâmpinăm în acest univers sonor, unde pasiunea pentru muzică se întâlnește cu bucuria
+        descoperirii și cu spiritul comunității.</p>
+    </div>
+    <div class="container-descriere text-center mb-5">
+      <div class="row align-items-start">
+        <div class="coloana">
+          <img src="musician--1.jpg" alt="bărbat carfe vorbește la microfon pe scenă și arată  numârul patru cu degetele">
+          <p>Scena Principală, sau Main Stage, este epicentrul energiei și entuziasmului în cadrul festivalului nostru
+            de muzică. Plasată în inima evenimentului, această scenă impunătoare devine epicentrul unei experiențe
+            sonore
+            memorabile, oferind un decor impresionant pentru spectacolele live ale artiștilor de calibru mondial.
+            Cu un design grandios, iluminare captivantă și sunet impecabil, Scena Principală devine locul în care se
+            desfășoară actele muzicale spectaculoase care îmbină genurile și conectează inimile ascultătorilor. Fiecare
+            notă, fiecare acord și fiecare moment captivant transformă această scenă într-un sanctuar al pasiunii
+            muzicale.</p>
+        </div>
+        <div class="coloana">
+          <img src="whatever-in-the-park.jpg" alt="grupuri de oameni care stau pe jos într-o zonâ verde">
+          <p>Relax Zone - un colț al evenimentului dedicat regăsirii echilibrului și refacerii energetice în mijlocul
+            atmosferei vibrantă a festivalului. Această oază de liniște oferă participanților posibilitatea de a scăpa
+            pentru scurt timp de agitația spectacolelor live și de a se relaxa într-un mediu reconfortant. Echipată cu
+            perne confortabile, paturi relaxante și decorațiuni plăcute, Relax Zone devine locul perfect pentru a
+            împărtăși povești cu prietenii și simplu savura un moment de liniște. Sunetele muzicii de fundal, mirosul
+            plăcut și atmosfera relaxantă transformă acest spațiu într-un refugiu de la agitația festivalului.</p>
+        </div>
+      </div>
+    </div>
+    <div class="center-accordion">
+      FAQ
+    </div>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Care sunt regulile privind fotografierea și filmarea la festival?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Fotografierea amatoră este permisă, însă utilizarea camerelor profesionale și filmarea cu
+              echipamente sofisticate necesită aprobare prealabilă din partea organizatorilor.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Pot accesa și părțile de peisaj sau zonele verzi ale locației festivalului?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Da, multe dintre spațiile de peisaj sunt accesibile publicului. Asigură-te că respecți
+              semnalizările și instrucțiunile personalului pentru a păstra curățenia și a menține siguranța.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Există facilități pentru persoanele cu dizabilități?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Da, festivalul nostru se străduiește să ofere facilități accesibile pentru toți participanții.
+              Contactează-ne în avans pentru a discuta nevoile tale specifice.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Cum pot deveni voluntar la festival?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Suntem mereu în căutare de voluntari entuziaști! Completează formularul de voluntariat de pe
+              site-ul nostru și vei primi mai multe informații despre cum poți contribui la eveniment.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="container-bilete text-center">
+    <div class="row align-items-start">
+      <div class="col mt-5">
+        <h4>Ziua 1</h4>
+        <ul>
+          <li><strong>Main Stage</strong></li>
+          <li>Ora 18-20 - Trupa Sonor</li>
+          <li>Ora 20-22 - Trupa Flow</li>
+          <li>Ora 22-00 - Trupa TrackStar</li>
+          <li><strong>Scena Secundară</strong></li>
+          <li>Ora 18-20 - Concurs de trupe de liceu de pop punk</li>
+          <li><strong>Relax Zone</strong></li>
+          <li>Ora 18-23 - food truck, bean bags, mese</li>
+      </div>
+      <div class="col mt-5">
+        <h4>Ziua 2</h4>
+        <ul>
+          <li><strong>Main Stage</strong></li>
+          <li>Ora 20-21 - Truap Enchantment</li>
+          <li>Ora 21-22 - Symphony</li>
+          <li>Ora 22-00 - Trupa Rebel Riffs</li>
+          <li>Ora 00-02 - DJ Electro</li>
+          <li><strong>Scena Secundară</strong></li>
+          <li>Ora 18-20 - Concurs de trupe locale de pop punk</li>
+          <li><strong>Relax Zone</strong></li>
+          <li>Ora 18-23 - food truck, bean bags, mese</li>
+        </ul>
+      </div>
+      <div class="col mt-5">
+        <h4>Ziua 3</h4>
+        <ul>
+          <li><strong>Main Stage</strong></li>
+          <li>Ora 18-19 - Trupa Kaleidoscope</li>
+          <li>Ora 19-20 - Trupa Sync</li>
+          <li>Ora 220-22 - Trupa SCREAM</li>
+          <li><strong>Afterparty cu DJ CYU</strong></li>
+          <li><strong>Scena Secundară</strong></li>
+          <li>Ora 18-20 - Concurs de cover-uri pop punk și alternative</li>
+          <li><strong>Relax Zone</strong></li>
+          <li>Ora 18-23 - food truck, bean bags, mese</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="Bilete">
+    <div class="Bilete mx-auto mb-5 mt-5">
+      <h2>Bilete</h2>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="artist-musician7.jpg" class="card-img-top" alt="bărbat care cântă la chitară și microfon">
+          <div class="card-body">
+            <h3 class="card-title">Start la distracție!</h3>
+            <p class="card-text"> îmbogățește-ți experiența cu ritmuri vibrante și artiști de top - achiziționează-ți
+              biletele acum și pregătește-te pentru o călătorie muzicală memorabilă!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="mic2.jpg" class="card-img-top" alt="capul unui microfon pe un fundal mov">
+          <div class="card-body">
+            <h3 class="card-title">Abonamente</h3>
+            <ul>
+              <li> Abonament VIP - 200 € </li>
+              <li>Abonament Standard - 150 €</li>
+              <li>Abonament pe zi - 80 € </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Ofertă specială</h3>
+          <p class="card-text">Urmează o ofertă de nerefuzat! Pornește-ți notificările pentru a afla când dăm startul
+            ofertei!</p>
+          <p class="card-text">Descoperă privilegiile unei experiențe de festival de neuitat cu un bilet VIP la doar
+            150 de euro! Bucură-te de locuri premium, acces exclusiv în zone restrânse și tratament regal,
+            garantându-ți o experiență muzicală și socială de excepție</p>
+          <button type="button" class="btn btn-outline-dark"">
+                                Notifications
+            </button>
+                  </div>
+                  </div>
+                  </div>
+                <div class=" col">
+            <div class="card">
+              <div class="card-header">
+                Plată
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Plătește rapid și în siguranță</h5>
+                <p class="card-text">Facilitează-ți călătoria către festival selectând opțiunea de plată preferată și
+                  finalizând tranzacția într-un mod sigur și convenabil. </p>
+                <a class="btn btn-outline-dark"" href=" https://www.paypal.com/ro/home" role="button">Plătește</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="container center-accordion">
+        <div class="accordion mt-5" id="accordionExample">
+          <div class="accordion">
+            FAQ
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Cum pot achiziționa bilete pentru festival?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Biletele pot fi achiziționate online prin intermediul site-ului nostru oficial. Accesează secțiunea
+                  de Bilete pentru a vedea opțiunile disponibile.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Pot achiziționa bilete la intrare sau trebuie să le cumpăr în avans?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Biletele pot fi achiziționate atât online, cât și la intrare, în funcție de disponibilitate. Totuși,
+                  recomandăm achiziționarea acestora în avans pentru a evita aglomerația la intrare.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Există posibilitatea de retur a banilor?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Da, banii se pot returna pe baza unei cereri trimise pe mail-ul nostru.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="Locație">
+      <div class="Locație mx-auto mb-5 mt-5">
+        <h2>Locație</h2>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+            <p>Centrul Clujului se dezvăluie ca o bijuterie urbană în care se întâlnesc tradiția și modernitatea,
+              creând un cadru perfect pentru desfășurarea unui festival plin de culoare și energie. Străzile
+              pietruite, flancate de clădiri istorice și arhitectură eclectică, devin un decor pitoresc pentru
+              evenimente culturale și artistice.</p>
+            <p>Cu acces facil la mijloacele de transport în comun și la o varietate de facilități, Centrul Clujului
+              devine locul perfect pentru a aduce o comunitate împreună într-un spirit de sărbătoare și bucurie.
+              Festivalul organizat aici devine un eveniment de neuitat, în care tradiția și modernitatea se îmbină
+              armonios, oferind o experiență culturală autentică.</p>
+          </div>
+          <div class="col">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.737510273781!2d23.5903524!3d46.770070200000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490e9d685d7be9%3A0xa65f39d4aa0ffccb!2sPia%C8%9Ba%20Unirii%2C%20Cluj-Napoca!5e0!3m2!1sro!2sro!4v1699862846260!5m2!1sro!2sro"
+              width="550" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+      <footer class="main-footer mt-5">
+        <div class="container">
+          <div class="d-flex justify-content-between pt-3">
+            <div>
+              <ul>
+                <li>Număr de telefon: 07.......</li>
+                <li>Email: euphoriafest@yahoo.com</li>
+              </ul>
+            </div>
+            <div class="text-center">
+              <div>
+                <p>© 2023 Euphoria Festival </p>
+              </div>
+            </div>
+            <div>
+              <ul class="nav justify-content-end list-unstyled d-flex">
+                <li>
+                  <a href="https://www.facebook.com/" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+                </li>
+                <li>
+                  <a href="https://www.tiktok.com/explore" target="_blank"><img src="tik-tok.png" alt="Tik-Tok"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
